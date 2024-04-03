@@ -1,0 +1,14 @@
+server:
+  port: 3000
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    com.auth0.example: TRACE
+
+okta:
+  oauth2:
+    issuer: https://dev-rg1r1kg413px6tci.us.auth0.com/
+    client-id: 6pqxCWhDjcLwNvrk9JKjzTEC1XxahqzG
+    client-secret: ii6_6yHuLsFXTavBqUdVrtuyeu15tqnip3h722PmiPdNPiEWFleBpsvtNzATqg_C
